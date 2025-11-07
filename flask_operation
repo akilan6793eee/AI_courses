@@ -1,0 +1,40 @@
+from flask import Flask, jsonify, request   # ✅ Correct import here
+
+app = Flask(__name__)
+
+@app.route('/nicework')
+def nicework():
+    return jsonify({"status": "nicework"})
+    
+
+@app.route('/')
+def home():
+    return "Welcome to the Flask !"
+
+@app.route('/user/<name>')
+def user(name):
+    return jsonify({"message": f"Hello, {name}!"})
+
+# POST → Create a new user
+@app.route('/user', methods=['POST'])
+def create_user():
+    data = request.get_json()
+    name = data.get("name")
+    age = data.get("age")
+    return jsonify({
+        "message": f"User {name} created successfully!",
+        "user": {"name": name, "age": age}
+    }), 201  # HTTP 201 = Created
+
+# PUT → Update user details
+@app.route('/user/<name>', methods=['PUT'])
+def update_user(name):
+    data = request.get_json()
+    new_age = data.get("age")
+    return jsonify({
+        "message": f"User {name} updated successfully!",
+        "updated_data": {"name": name, "age": new_age}
+    }), 200  # HTTP 200 = OK
+
+if __name__ == '__main__':
+    app.run(debug=True)
