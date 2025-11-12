@@ -1,0 +1,64 @@
+{
+  "prompt": "A lifelike, hyper-realistic photograph of a Formula 1 car racing at full speed on a real-world racetrack. The car is captured mid-turn with motion blur on the tires, sparks flying from the rear diffuser, and heat distortion visible behind the exhaust. The glossy red and black carbon-fiber body reflects sunlight and track surroundings realistically. Dust and tire smoke trail behind as the car speeds past blurred grandstands filled with cheering spectators. The image should feel like a live professional sports photograph — crisp details on the car, dynamic motion, and perfect depth of field. The lighting is natural sunlight with cinematic tones, capturing the raw energy, precision, and intensity of real Formula 1 racing.",
+
+  "style": {
+    "type": "photorealistic",
+    "realism": "true-to-life with authentic textures and lighting physics",
+    "composition": "low-angle panning shot tracking the car in motion",
+    "lighting": {
+      "type": "natural daylight",
+      "quality": "realistic sunlight with subtle reflections and soft shadows",
+      "lens_flare": "gentle cinematic lens flare for authenticity"
+    },
+    "color_palette": ["deep red", "jet black", "chrome silver", "warm sunlight", "asphalt gray", "sky blue"],
+    "camera": {
+      "angle": "low tracking shot close to ground",
+      "lens": "DSLR 200mm telephoto",
+      "focus": "sharp on car, motion-blurred background for speed effect",
+      "aperture": "f/2.8 for shallow depth of field",
+      "shutter_speed": "1/1000s for crisp motion capture",
+      "exposure": "balanced HDR tone"
+    }
+  },
+
+  "environment": {
+    "location": "modern Formula 1 race circuit",
+    "time_of_day": "late afternoon for warm highlights",
+    "weather": "clear sky with realistic sunlight reflections",
+    "background_elements": [
+      "crowded grandstands",
+      "sponsor boards",
+      "trackside barriers",
+      "pit buildings in distance"
+    ]
+  },
+
+  "details": {
+    "motion": "extreme high-speed racing dynamics",
+    "effects": ["tire smoke", "sparks", "heat haze", "motion blur", "track debris"],
+    "materials": ["carbon fiber", "rubber tires", "metallic body", "asphalt"],
+    "extras": [
+      "driver helmet visible through cockpit",
+      "real sponsor decals",
+      "reflections of sky and track on body",
+      "detailed wheel rims and suspension"
+    ]
+  },
+
+  "quality": {
+    "resolution": "32K ultra-high pixel density for photographic clarity",
+    "realism_level": "true-to-life (photo indistinguishable from reality)",
+    "render_mode": "ray-traced photorealism",
+    "sharpness": "crisp focus on car, cinematic blur elsewhere",
+    "hdr": true,
+    "texture_depth": "extreme fine detail"
+  },
+
+  "output": {
+    "aspect_ratio": "16:9",
+    "orientation": "landscape",
+    "format": "high-resolution photographic image",
+    "use_case": "sports photography, racing poster, HD wallpaper, promotional visual",
+    "enhancements": ["HDR tone mapping", "real-world motion lighting", "subtle vignette for focus depth"]
+  }
+}

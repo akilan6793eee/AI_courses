@@ -1,0 +1,116 @@
+{
+  "title": "Tamil AI Presenter - Upcoming Cars (English Subtitles)",
+  "description": "A 20-second realistic Tamil-language video of a female presenter whose face matches the reference video, speaking in Tamil about upcoming cars, with car visuals playing one by one in the background and English subtitles displayed.",
+  "duration_seconds": 20,
+  "language_spoken": "ta-IN",
+  "subtitle_language": "en",
+  "video_format": {
+    "container": "mp4",
+    "resolution": "1920x1080",
+    "aspect_ratio": "16:9",
+    "frame_rate": 30,
+    "quality": "ultra-realistic"
+  },
+  "face_reference": {
+    "source_video": "WhatsApp Video 2025-02-14 at 7.19.12 PM.mp4",
+    "usage": "apply face conditioning to presenter",
+    "blend_strength": 0.9,
+    "maintain_emotion": true,
+    "enable_lip_sync": true
+  },
+  "character": {
+    "role": "Tamil automotive presenter",
+    "gender": "female",
+    "age_range": "25-32",
+    "appearance": {
+      "attire": "smart casual outfit (pastel color)",
+      "makeup": "natural daylight tone",
+      "hair_style": "shoulder length, tidy",
+      "expression": "confident and friendly"
+    },
+    "position_on_screen": "bottom-right",
+    "scale": 0.4,
+    "motion": "subtle gestures and blinking"
+  },
+  "background": {
+    "theme": "automotive showcase",
+    "type": "video_sequence",
+    "clips": [
+      { "file": "car1.mp4", "start": 0, "end": 4 },
+      { "file": "car2.mp4", "start": 4, "end": 8 },
+      { "file": "car3.mp4", "start": 8, "end": 12 },
+      { "file": "car4.mp4", "start": 12, "end": 16 },
+      { "file": "car5.mp4", "start": 16, "end": 20 }
+    ],
+    "transition": "smooth crossfade",
+    "focus_mode": "highlight each car clearly behind the presenter"
+  },
+  "voice": {
+    "tts_engine": "neural",
+    "language": "ta-IN",
+    "gender": "female",
+    "accent": "native Tamil",
+    "tone": "enthusiastic, professional, clear",
+    "speed": "1.0x",
+    "emotion": "informative",
+    "lip_sync": true
+  },
+  "dialogue": {
+    "spoken_tamil": "வணக்கம்! இன்று நாம் வரவிருக்கும் கார்கள் பற்றிச் சுருக்கமாகப் பார்ப்போம். புதிய மின்சார கார்கள் அதிக தூரம் பயணிக்கின்றன, வேகமான சார்ஜிங் வசதியுடன் வருகின்றன. சில ஹைபிரிட் மாடல்கள் பெட்ரோல் மற்றும் மின்சார இணைப்பை கொண்டுள்ளன. இன்னும் பல புதிய கார் மாடல்கள் விரைவில் வரவிருக்கின்றன!",
+    "translated_english_subtitles": "Hello! Today, let's take a quick look at the upcoming cars. The latest electric vehicles can travel long distances and support fast charging. Some hybrid models combine petrol and electric power efficiently. Many exciting new car models are coming soon!"
+  },
+  "subtitles": {
+    "enabled": true,
+    "language": "en",
+    "text_source": "translated_english_subtitles",
+    "font": "Noto Sans",
+    "size": 42,
+    "color": "#FFFFFF",
+    "background_opacity": 0.4,
+    "position": "bottom-center",
+    "sync_with_voice": true
+  },
+  "audio_background": {
+    "music": "soft_tech_theme.mp3",
+    "volume": 0.2,
+    "loop": true,
+    "fade_in": 1.5,
+    "fade_out": 1.5
+  },
+  "camera": {
+    "shot_type": "medium close-up",
+    "angle": "slightly low-front",
+    "movement": "slow dolly-in toward presenter",
+    "focus": "sharp on presenter, slightly blurred background",
+    "lighting": "soft cinematic light with warm tone"
+  },
+  "color_grading": {
+    "style": "cinematic natural",
+    "temperature": "warm",
+    "contrast": 1.15,
+    "saturation": 1.05,
+    "vignette": 0.2
+  },
+  "composition": {
+    "layout": "picture-in-picture",
+    "presenter_side": "right",
+    "background_side": "left",
+    "blend_mode": "soft_overlay"
+  },
+  "output": {
+    "file_name": "tamil_car_video_with_english_subtitles.mp4",
+    "codec": "H.264",
+    "audio_codec": "aac",
+    "bitrate": "8000k",
+    "usage": "promotional_video, educational_demo, youtube_short"
+  },
+  "instructions": [
+    "Use Tamil TTS for spoken dialogue.",
+    "Translate the Tamil dialogue into English subtitles.",
+    "Synchronize English subtitles with Tamil speech.",
+    "Apply the reference face from the provided video to the presenter.",
+    "Show each car clip for 4 seconds in the background sequentially.",
+    "Ensure realistic lip-sync, lighting, and subtle presenter movement.",
+    "Final duration must be exactly 20 seconds."
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "role": "tamil female video presenter",
+  "title": "Tamil AI Presenter - Upcoming Cars",
+  "description": "A 20-second realistic Tamil-language video of a female presenter whose face matches the reference video, speaking in Tamil about upcoming cars, with car visuals changing every 2 seconds in the background and English subtitles displayed.",
+  "duration_seconds": 20,
+  "language_spoken": "tamil",
+  
+  "video_format": {
+    "container": "mp4",
+    "resolution": "1920x1080",
+    "aspect_ratio": "16:9",
+    "frame_rate": 30,
+    "quality": "ultra-realistic"
+  },
+
+  "character": {
+    "role": "Tamil automotive presenter",
+    "gender": "female",
+    "age_range": "25-32",
+    "appearance": {
+      "attire": "smart casual outfit (pastel color)",
+      "makeup": "natural daylight tone",
+      "hair_style": "shoulder length, tidy",
+      "expression": "confident and friendly"
+    },
+    "position_on_screen": "bottom-right",
+    "scale": 0.4,
+    "motion": "subtle gestures and blinking"
+  },
+
+  "background": {
+    "theme": "automotive showcase",
+    "type": "video_sequence",
+    "change_interval_seconds": 2,
+    "clips": [
+      { "file": "car1.mp4", "start": 0, "end": 2, "car_name": "Tesla Model 3" },
+      { "file": "car2.mp4", "start": 2, "end": 4, "car_name": "BMW i4" },
+      { "file": "car3.mp4", "start": 4, "end": 6, "car_name": "Hyundai Ioniq 6" },
+      { "file": "car4.mp4", "start": 6, "end": 8, "car_name": "Tata Nexon EV" },
+      { "file": "car5.mp4", "start": 8, "end": 10, "car_name": "Kia EV6" },
+      { "file": "car6.mp4", "start": 10, "end": 12, "car_name": "Audi e-tron GT" },
+      { "file": "car7.mp4", "start": 12, "end": 14, "car_name": "Mercedes EQS" },
+      { "file": "car8.mp4", "start": 14, "end": 16, "car_name": "MG ZS EV" },
+      { "file": "car9.mp4", "start": 16, "end": 18, "car_name": "Volvo XC40 Recharge" },
+      { "file": "car10.mp4", "start": 18, "end": 20, "car_name": "Porsche Taycan" }
+    ],
+    "transition": "smooth crossfade",
+    "focus_mode": "highlight each car clearly behind the presenter",
+    "overlay_text": {
+      "enabled": true,
+      "text_source": "car_name",
+      "font": "Montserrat Bold",
+      "size": 48,
+      "color": "#FFD700",
+      "position": "top-left",
+      "background_box": {
+        "enabled": true,
+        "color": "rgba(0,0,0,0.5)",
+        "padding": 10,
+        "border_radius": 8
+      },
+      "transition": "fade_in_out"
+    }
+  },
+
+  "voice": {
+    "tts_engine": "neural",
+    "language": "ta-IN",
+    "gender": "female",
+    "accent": "native Tamil",
+    "tone": "enthusiastic, professional, clear",
+    "speed": "1.0x",
+    "emotion": "informative",
+    "lip_sync": true
+  },
+
+  "dialogue": {
+    "spoken_tamil": "வணக்கம்! இன்று நாம் வரவிருக்கும் கார்கள் பற்றிச் சுருக்கமாகப் பார்ப்போம். புதிய மின்சார கார்கள் அதிக தூரம் பயணிக்கின்றன, வேகமான சார்ஜிங் வசதியுடன் வருகின்றன. சில ஹைபிரிட் மாடல்கள் பெட்ரோல் மற்றும் மின்சார இணைப்பை கொண்டுள்ளன. இன்னும் பல புதிய கார் மாடல்கள் விரைவில் வரவிருக்கின்றன!"
+  },
+
+  "subtitles": {
+    "enabled": true,
+    "language": "en",
+    "text_source": "translated_english_subtitles",
+    "translated_english_subtitles": "Hello! Today, let's take a quick look at the upcoming cars. The latest electric vehicles can travel long distances and support fast charging. Some hybrid models combine petrol and electric power efficiently. Many exciting new car models are coming soon!",
+    "font": "Noto Sans",
+    "size": 42,
+    "color": "#FFFFFF",
+    "background_opacity": 0.4,
+    "position": "bottom-center",
+    "sync_with_voice": true
+  },
+
+  "audio_background": {
+    "music": "soft_tech_theme.mp3",
+    "volume": 0.2,
+    "loop": true,
+    "fade_in": 1.5,
+    "fade_out": 1.5
+  },
+
+  "camera": {
+    "shot_type": "medium close-up",
+    "angle": "slightly low-front",
+    "movement": "slow dolly-in toward presenter",
+    "focus": "sharp on presenter, slightly blurred background",
+    "lighting": "soft cinematic light with warm tone"
+  },
+
+  "color_grading": {
+    "style": "cinematic natural",
+    "temperature": "warm",
+    "contrast": 1.15,
+    "saturation": 1.05,
+    "vignette": 0.2
+  },
+
+  "composition": {
+    "layout": "picture-in-picture",
+    "presenter_side": "right",
+    "background_side": "left",
+    "blend_mode": "soft_overlay"
+  },
+
+  "output": {
+    "file_name": "tamil_car_video_with_english_subtitles.mp4",
+    "codec": "H.264",
+    "audio_codec": "aac",
+    "bitrate": "8000k",
+    "usage": "promotional_video, educational_demo, youtube_short"
+  },
+
+  "instructions": [
+    "Use Tamil TTS for spoken dialogue.",
+    "Translate the Tamil dialogue into English subtitles.",
+    "Synchronize English subtitles with Tamil speech.",
+    "Apply the reference face from the provided video to the presenter.",
+    "Change background car video every 2 seconds with the car name displayed.",
+    "Ensure car name appears as overlay text at the top-left of each background clip.",
+    "Use smooth crossfade transitions between car videos.",
+    "Ensure realistic lip-sync, lighting, and subtle presenter movement.",
+    "Final duration must be exactly 20 seconds."
+  ]
+}
