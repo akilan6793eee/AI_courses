@@ -1,0 +1,272 @@
+# Prompt Engineering Practice Templates
+
+## A. Basic Prompt Templates
+
+### 1. General Inquiry
+**Example:**
+> What is AI Agent explain in simple terms?.
+
+### 2. Summarization
+**Example:**
+> Write about the new AI technology in 3 bullet points within 30 words
+
+### 3. Paraphrasing
+**Example:**
+> Rewrite this idoms in your own words:
+> "Let the cat out of the bag"
+
+### 4. Definition Request
+**Example:**
+the prompt template is used when you want an AI system to provide a definition or explanation of a specific term or concept.
+
+### 5. Comparison
+**Example:**
+> Compare GPT models with the gemini ai on the bechmark
+
+### 6. Role + Explanation`
+**Example:**
+> You are an electrical engineer. Explain what are the routine checks happening while starting the work in electeical field
+
+### 7. Style Mimicry
+**Example:**
+> Write a famous fantasy storybook like Harry Potter.
+
+### 8. Professional Writing`
+**Example:**
+> You are an AI experts. Write a list of components/tools used to fine-tune a model
+
+## C. Few-Shot Prompt Templates
+
+### 9. Classification Template
+
+**Example:**
+
+The food was excellent. → Positive
+some food is not good . → Negative
+But some chicken dish very good  → Neutral
+
+### 10. Translation Template
+**Example:**
+
+Translate to Tamil:
+What is LLM in tamil? - பெரிய மொழி மாதிரி
+
+### 11. Question Answering Template
+**Example:** 
+```
+What is the current AI market value?
+what is the next project by Mukesh ambani?______
+```
+## D. Chain-of-Thought (CoT) Templates
+
+### 12. Step-by-Step Reasoning
+**Example:**
+>Let's think step by step. If you planning to purchase a laptop. what are the thing you need check before buying a laptop?.
+For eample, first check the processor i7 or Mac 4 pro, high memory RAM16GB, storage 512 SSD and graphic card.
+
+### 13. Math Problem Solving
+**Example:**
+> Solve step by step: (2+3)-2(6*8) / 2
+
+### 14. Logical Puzzle
+**Example:**
+> A farmer needs to cross a river with a wolf, a goat, and a cabbage. He has a boat, but it can only carry himself and one other item at a time. If left alone, the wolf will eat the goat, and the goat will eat the cabbage. How can he get all three across safely?
+
+### 15. Output Formatting
+**Example:**
+> List down the best performing stocks in NSE. Show the stocks which pay high divident into bullent points.
+
+### 16. Table Generation
+**Example:**
+> Compare [iPhone 15], [iPhone 17], and [Samsung] based on [Camera quality, performance, battery life]
+
+### 17. Email Writing
+**Example:**
+> You are an cricket coach expert. what  are rules need to inform or follow while all the trainees in the cricket academy. 
+
+### 18. Tailored Explanation
+**Example:**
+> Explain about the quantum computing to a college student with simple understandable format.
+
+### 19. Industry-Specific Context
+**Example:**
+> As a CEO of the Software company, explain how AI will impact in the current industry
+
+### 20. Story Writing
+**Example:**
+> write a story about Car manifacture and there difficulities.
+
+### 21. Poem Writing
+**Example:**
+> Write a poem about life with fantasy. 
+
+### 22. Dialogue Writing
+**Example:**
+> Write a realistic dialogue between a Father and a Son discussing about the cars.
+
+## H. Code & Technical Prompts
+
+### 23. Code Generation
+**Example:**
+> Write a Python function to calucate age.
+
+### 24. Debugging Help
+**Example:**
+> for i in range(1,10)
+    print(i+j)
+
+### 25. API Documentation
+**Example:**
+> Explain how to use  api with an example request and response
+
+## I. Marketing & Business Prompts
+
+### 26. Ad Copywriting
+**Example:**
+> You are a politican preparing for a vote campign so create an attractive ad to address the youth.
+
+### 27. Product Description
+**Example:**
+> You are a product manager. Team has created a stock market analyst application. Write a product description for the Application with the details insight about the product should attract the customers.
+
+### 28. Social Media Post
+**Example:**
+>You are an event manager organizing a event to promote a new shoe brand. Write a casual and friendly description for the event.
+
+### 29. Response to Complaint
+**Example:**
+> You are a manager at a restaurant. The customer had a complaint about the bad service during the visit. Write an email in a polite and professional manner to address the issue.
+
+### 30. FAQ Generator
+**Example:**
+> Generate 5 common FAQs and answers for a AI product.
+
+### 31. Lesson Plan Creation
+**Example:**
+> You are a maths master, so you are going to teach a step-by-step procedure to learn Algebra in maths.
+
+### 32. Quiz Generation
+**Example:**
+> You are a computer science teacher. Planning to set up a competition for the students of the class, prepare a quiz with 5 questions and answers for the 12th grade students on the Python programming language. 
+
+### 33. Homework Help
+**Example:**
+> A car travels 150 kilometers at a constant speed of 75 km/h.
+How much time does it take to complete the journey?
+
+### 34. React Framework
+**Example:**
+> Simulate agent behavior manually for running:
+
+Thought: Set up a meeting with my team to discussion about the project progress.
+Action: Kindly check the calendar availability of the team members and choose the available time which works for all.
+Observation: Find that the team is available on Wednesday and Thurdays with works for everyone.
+Answer: Completed setting up the meeting with the team.
+
+### 35. Tree of Thoughts (ToT)
+**Example:**
+> Generaet three possible ways to learn AI, evaluate each method, and choose the best for one.
+For example: Learn through youtube channels, self-learning, join AI course.
+Determine which method is most effective.
+
+### 36. Self-Consistency Prompting
+**Example:**
+> Which is the best method to invest for savings?. 
+
+### 37. Prompt Refinement
+**Example:**
+You are a expert prompt engineer. Create a marketing stratagy for the real estate company to prompte the company to increase the sales.
+For example: create a ad to promote in social media.
+
+### 36. Self-Consistency Prompting
+**Example:**
+> You are a expert product manager. Provide step by step process to create a common product for the social media marketing which handles different products. Choose the best one to promote the product.
+
+### 38. Prompt Grading Rubric
+Rate this output based on the following criteria (1-5):
+Relevance: Task should directly address the specific prompt.
+Accuracy: Create accurate 
+Clarity:
+Fluency:
+Creativity:
+Final Score: Evaluate the Final score
+The prompt Grading template to from the list of mobile product.
+Output: Find the best product with different mobiles: iPhone, Samsung, Redmi Note, Motorola, Nokia.
+
+Clarity: clearly worded and easy to understand? Ambiguity should be minimal.	
+Fluency: Does the prompt focus on one or more of the mentioned mobile brands (iPhone, Samsung, Motorola, Nokia)?	
+Accuracy: Is the prompt accurate and tailored to the features, models, or unique aspects of the selected brand(s)?	
+Creativity:	Is the prompt action-oriented, giving clear instructions or objectives (e.g., compare, analyze, review, etc.)?	
+Format and Structure: Is the prompt well-structured (e.g., uses bullets, proper grammar, concise phrasing)?
+
+### 39. Prompt Iteration Challenge.
+**Example:**
+> You are a expert stock analyst. List down the best stocks which has high probability to increase up 50% in next 10 years.  
+
+### 40. Job Posting Creation
+**Example:**
+>Write a job posting for a Project Manager at Apple. Include responsibilities, requirements, and benefits.
+
+### 41. Resume Summary Builder
+**Example:**
+>Create a resume for a Technology Lead with 13 years of experience, specializing in python and certified AI architect.
+
+### 42. Business Proposal
+**Example:**
+>Write a proposal to train an AI model for the Health care syatem. Include objectives, methodology, and benefits.
+
+### 43. Opinion Writing
+**Example:**
+> Write an opinion piece on AI vs Human
+
+### 44. Debate Preparation
+**Example:**
+> Prepare arguments for both parties of Russia and Ukraine
+
+### 45. Travel Planning
+**Example:**
+> You are a leading expert travel planner company. Create a 5-day travel plan to dubai including budget and activities.
+
+### 46. Book/Movie Review
+**Example:**
+> You are a expert movie reviewer. Write a detailed review of the F1 moive, Include plot summary, strengths, weaknesses, and recommendation.
+
+### 47. Personal Development
+**Example:**
+> Write an article on future investment planning and how to consistently improve investment based on the income.
+
+### 48. Multi-step Research Task
+Step 1:
+Find out the top 5 causes of AI revolution.
+
+Step 2:
+Based on those causes, suggest 5 partical solutions can adopt quicly to be on the AI race.
+
+### 49. Idea to Execution
+Pick 5 small-scale digital businesses and evaluate which one has performed the best in recent years, specifically in 2025.
+
+Example:
+
+Stock Market Analyzer Service
+
+Online AI agent Development for business needs.
+
+Web Site development using AI 
+
+Online Learning platform
+
+Content Development for blogs
+
+Evaluate their recent performance and pick the best-performing business in 2025.
+
+## Q. Prompt Template Generator
+
+### 50. Universal Prompt Builder
+
+**Example:**
+> Role: You are a excellent story writer for the children. 
+Task: Create a bedtime story for the kids with polite words
+Context: Write a story for children's under age of 10 in well understandable format. Include special animal and natural images. 
+Example: Fictional and Non-Fictional stories.
+Format: Story should be within 30 words with images.
+
