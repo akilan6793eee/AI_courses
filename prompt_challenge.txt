@@ -1,0 +1,214 @@
+{
+  "project_title": "Unleashing GenAI: The 2-Week Transformation — Ultra-Realistic Unreal Engine Edition",
+  "language": "en-US",
+  "total_parts": 8,
+
+  "team_appearance": [
+    {
+      "id": "vijaya",
+      "gender": "female",
+      "avatar_style": "ultra-realistic cinematic Unreal Engine human",
+      "skin_tone": "fair white",
+      "render_style": "Metahuman-quality SSS skin shader, high-detail pores, realistic eyes",
+      "face_lighting": "HDR soft frontal with warm rim light",
+      "clothing": {
+        "outfit": "pastel blazer over white top",
+        "bottom": "dark fitted trousers"
+      },
+      "hair_style": "shoulder-length, realistic strand-based hair"
+    },
+    {
+      "id": "akilan",
+      "gender": "male",
+      "avatar_style": "ultra-realistic cinematic Unreal Engine human",
+      "skin_tone": "fair white",
+      "render_style": "Metahuman-quality photorealistic",
+      "face_lighting": "HDR soft frontal with crisp highlights",
+      "clothing": {
+        "outfit": "dark jacket over grey T-shirt",
+        "bottom": "black slim-fit pants"
+      },
+      "hair_style": "short, neatly styled shader-based hair"
+    },
+    {
+      "id": "mohamed",
+      "gender": "male",
+      "avatar_style": "ultra-realistic cinematic Unreal Engine human",
+      "skin_tone": "fair white",
+      "render_style": "photorealistic Metahuman skin + micro facial details",
+      "face_lighting": "HDR soft frontal with subtle bounce light",
+      "clothing": {
+        "outfit": "navy-blue jacket over black top",
+        "bottom": "dark slim-fit pants"
+      },
+      "hair_style": "short clean hairstyle"
+    }
+  ],
+
+  "parts": [
+
+    {
+      "part": "part_1",
+      "duration_seconds": 8,
+      "title": "Arrival — High-Tech AI Hub",
+      "character_appearance": "team_appearance",
+      "visual_directive": "All three walk together into a massive Unreal Engine AI hub. Glass floors, floating neon holograms, crystalline structures, volumetric lights, and swirling particle clouds. The environment feels alive with futuristic motion.",
+      "camera": "cinematic crane follow + wide-angle establishing shot",
+      "audio_directive": {
+        "tts_line": null,
+        "music": "deep atmospheric cinematic pulse"
+      },
+      "on_screen_text": "Unleashing GenAI: The 2-Week Transformation"
+    },
+	{
+  "part": "part_2",
+  "duration_seconds": 8,
+  "title": "Floating Sky Lab — Ideas Take Flight",
+  "character_appearance": "team_appearance",
+
+  "visual_directive": "The trio stands on a floating laboratory platform above the clouds. Transparent glass floors, levitating consoles, bright sunlight scattering through light beams. Holographic diagrams float around like weightless blue butterflies. Wind moves gently through their hair.",
+  
+  "camera": "smooth aerial circular shot around the floating platform",
+
+  "audio_directive": {
+    "tts_line": "The moment we stepped above the clouds, our ideas found space to grow and expand beyond limits.",
+    "tts_voice": "female_english_warm",
+    "enable_lipsync": true,
+    "music": "uplifting airy synths"
+  }
+}
+{
+  "part": "part_3",
+  "duration_seconds": 8,
+  "title": "Quantum Light Forest — Discovery Everywhere",
+  "character_appearance": "team_appearance",
+
+  "visual_directive": "The team walks through a hyper-realistic glowing forest. Trees made of neon light filaments, roots sending pulses like data streams. Firefly-like particles swirl around them. The environment reacts to their movement like a living quantum network.",
+  
+  "camera": "slow-motion tracking shot with lens flares and bokeh effects",
+
+  "audio_directive": {
+    "tts_line": "Every step through the unknown revealed patterns hiding in the beauty of complexity.",
+    "tts_voice": "female_english_warm",
+    "enable_lipsync": true,
+    "music": "ambient neon tones with soft pulses"
+  }
+}
+{
+  "part": "part_4",
+  "duration_seconds": 8,
+  "title": "Underwater Tech Dome — Calm Meets Clarity",
+  "character_appearance": "team_appearance",
+
+  "visual_directive": "The trio stands inside a huge transparent tech dome under the ocean. Floating holographic jellyfish made of data swim past. Light rays break through the water. Large curved screens show fluid simulations and flowing data waves.",
+  
+  "camera": "gentle dolly zoom with drifting underwater parallax",
+
+  "audio_directive": {
+    "tts_line": "In the quiet depths, clarity emerged — showing us how calm thinking shapes stronger ideas.",
+    "tts_voice": "male_english_clear",
+    "enable_lipsync": true,
+    "music": "underwater pads with soft chimes"
+  }
+}
+{
+  "part": "part_5",
+  "duration_seconds": 8,
+  "title": "Desert of Logic — Refining What Matters",
+  "character_appearance": "team_appearance",
+
+  "visual_directive": "All three walk across a cinematic golden desert. Massive holographic UI panels float above the dunes. Heat shimmer adds realism. A giant rotating cube of light follows them, casting shifting patterns across the sand.",
+  
+  "camera": "wide-angle dust trail tracking shot, golden-hour lighting",
+
+  "audio_directive": {
+    "tts_line": "Crossing the vast landscape taught us to refine what truly matters and leave behind everything that doesn’t.",
+    "tts_voice": "male_english_clear",
+    "enable_lipsync": true,
+    "music": "epic desert drums with airy pads"
+  }
+}
+{
+  "part": "part_6",
+  "duration_seconds": 8,
+  "title": "Neon City Rail — Moving With Purpose",
+  "character_appearance": "team_appearance",
+
+  "visual_directive": "The trio stands inside a transparent high-speed train rushing through a neon city. Skyscrapers glow in pink, purple, and blue. Holographic displays hover in the air, reflecting on the glass as the city blurs past.",
+  
+  "camera": "parallax-heavy tracking shot alongside the train, dynamic reflections",
+
+  "audio_directive": {
+    "tts_line": "With every move forward, we gained momentum — driven by purpose and fueled by curiosity.",
+    "tts_voice": "male_english_reflective",
+    "enable_lipsync": true,
+    "music": "cyberpunk heartbeat rhythm"
+  }
+}
+{
+  "part": "part_7",
+  "duration_seconds": 8,
+  "title": "Zero-Gravity AI Sphere — The Leap Forward",
+  "character_appearance": "team_appearance",
+
+  "visual_directive": "The trio floats in a zero-gravity spherical chamber. Holographic icons, glowing orbs, and rotating diagrams gently orbit them. Their hair and clothes move realistically in weightlessness. Light beams form geometric shapes in the air.",
+  
+  "camera": "free-floating camera motion, soft gliding transitions",
+
+  "audio_directive": {
+    "tts_line": "Letting go of gravity showed us how high we could rise when limits disappeared.",
+    "tts_voice": "male_english_reflective",
+    "enable_lipsync": true,
+    "music": "emotional rising synths"
+  }
+}
+{
+  "part": "part_8",
+  "duration_seconds": 8,
+  "title": "Cosmic Expansion — Final Tribute",
+  "character_appearance": "team_appearance",
+
+  "visual_directive": "Part 8 begins INSIDE the same zero-gravity AI sphere seen in Part 7. At second 1, the sphere walls dissolve outward into particles, expanding into a massive cosmic galaxy environment. The characters remain in the same pose as Part 7 to ensure a perfect continuation. The floating orbs from Part 7 scatter upward like glowing stars, transforming into a brilliant galactic sky. Colors must match Part 7’s palette: purple, blue, gold. Background remains fully visible, vibrant, and cinematic.",
+
+  "camera": "continuous outward pullback starting in the AI sphere and expanding into the cosmic view; no hard cuts",
+
+  "audio_directive": {
+    "tts_line": "This journey transformed us — and it is only the beginning. Special thanks to Social Eagle.",
+    "tts_voice": "deep_english_trailer_voice",
+    "enable_lipsync": true,
+    "music": "epic_orchestral_finale_with_continuity_from_part7"
+  },
+
+  "on_screen_text": {
+    "text": "Special Thanks to Social Eagle",
+    "appearance_time": 6.0,
+    "duration": 2.0,
+    "display_background": "keep_original_scene",
+    "style": {
+      "font": "Cinzel Black",
+      "size": 78,
+      "color": "#FFD700",
+      "animation": "golden_shine_sweep",
+      "glow": "soft_white_and_gold_glow",
+      "shadow": "subtle_black_soft"
+    },
+    "strict_override": true
+  },
+
+  "transition": {
+    "rules": [
+      "Part 8 must begin inside the Part 7 environment without any jump.",
+      "The dissolve from AI sphere to cosmic scene must be smooth and particle-based.",
+      "Camera and lighting must remain consistent for the first 1 second."
+    ]
+  },
+
+  "safety_rules": [
+    "No random names or words.",
+    "No blank screens.",
+    "No dark fadeouts.",
+    "Only the specified gratitude text should appear."
+  ],
+
+  "notes": "This version is specifically engineered to sync smoothly with Part 7’s zero-gravity AI sphere theme."
+}
